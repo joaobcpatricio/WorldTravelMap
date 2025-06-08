@@ -3,6 +3,22 @@
 Dashboard of the world map with visited places.
 ![map_preview.png](map_preview.png)
 
+
+For privacy reasons I place the python with the data content under a private submodule with:
+
+```python
+"""
+Geographic waypoints that Joao and Inês have visited
+"""
+__all__ = ["data"]
+
+# Data
+data = [
+    # Portugal
+    {"place": "Coimbra, Portugal", "lat": 40.2033, "lon": -8.4103, "visited_by": "both"},
+    {"place": "Viseu, Portugal", "lat": 40.6610, "lon": -7.9097, "visited_by": "both"},
+]
+```
 ## Python
 
 ### Install packages local environment
