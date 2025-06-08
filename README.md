@@ -8,7 +8,7 @@ For privacy reasons I place the python with the data content under a private sub
 
 ```python
 """
-Geographic waypoints that Joao and Inês have visited
+Geographic waypoints that Joao and Mariana have visited
 """
 __all__ = ["data"]
 
