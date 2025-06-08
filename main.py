@@ -183,7 +183,6 @@ data = [
 
 df = pd.DataFrame(data)
 
-# Color mapping
 color_map = {
     "Joao": "red",
     "Mariana": "pink",
@@ -206,9 +205,9 @@ for group in df['visited_by'].unique():
 
 fig.update_layout(
     mapbox=dict(
-        style="carto-positron",  # Try "open-street-map" or "carto-darkmatter" for other looks
+        style="open-street-map",  # No token needed here
         zoom=5.5,
-        center=dict(lat=39.5, lon=2.0),  # Center roughly on Balearic Islands for better view
+        center=dict(lat=39.5, lon=2.0),
         pitch=0,
     ),
     margin={"r":0,"t":0,"l":0,"b":0},
@@ -220,11 +219,10 @@ app.layout = html.Div([
     html.H1("World Travel Dashboard"),
     dcc.Graph(figure=fig,
         config={
-        "scrollZoom": True,  # Allow zooming with mouse wheel
-        "doubleClick": "reset",  # Double click resets zoom
-        "displayModeBar": True,  # Show the mode bar with zoom buttons
-        "modeBarButtonsToAdd": [],  # Add custom buttons if needed
-    })
+            "scrollZoom": True,
+            "doubleClick": "reset",
+            "displayModeBar": True,
+        })
 ])
 
 if __name__ == '__main__':
