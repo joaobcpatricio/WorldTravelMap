@@ -8,6 +8,26 @@ data = [
     # Portugal
     {"place": "Coimbra, Portugal", "lat": 40.2033, "lon": -8.4103, "visited_by": "both"},
     {"place": "Viseu, Portugal", "lat": 40.6610, "lon": -7.9097, "visited_by": "both"},
+    # Portugal (additional)
+    {"place": "Braga, Portugal", "lat": 41.5454, "lon": -8.4265, "visited_by": "both"},
+    {"place": "Porto, Portugal", "lat": 41.1579, "lon": -8.6291, "visited_by": "both"},
+    {"place": "Figueira da Foz, Portugal", "lat": 40.1500, "lon": -8.8667, "visited_by": "both"},
+    {"place": "Pomares, Portugal", "lat": 40.2589, "lon": -7.9667, "visited_by": "both"},
+    {"place": "Lagos, Portugal", "lat": 37.1020, "lon": -8.6742, "visited_by": "both"},
+    {"place": "Albufeira, Portugal", "lat": 37.0891, "lon": -8.2479, "visited_by": "both"},
+    {"place": "Lisboa, Portugal", "lat": 38.7169, "lon": -9.1399, "visited_by": "both"},
+    {"place": "Praia da Rocha, Portugal", "lat": 37.1161, "lon": -8.5383, "visited_by": "both"},
+    {"place": "Vila Nova de Milfontes, Portugal", "lat": 37.7237, "lon": -8.7820, "visited_by": "both"},
+    {"place": "Monte Tons da Terra, Portugal", "lat": 37.6058, "lon": -8.6378, "visited_by": "both"},
+    {"place": "Montemor-o-Novo, Portugal", "lat": 38.6482, "lon": -8.2133, "visited_by": "both"},
+    {"place": "Abrantes, Portugal", "lat": 39.4632, "lon": -8.1955, "visited_by": "both"},
+    {"place": "Praia do Portinho da Arrábida, Portugal", "lat": 38.48056986235832, "lon": -8.977599786833276, "visited_by": "both"},
+    {"place": "Praia de Galapinhos, Portugal", "lat": 38.48384393445861, "lon": -8.968468478636378, "visited_by": "both"},
+    {"place": "Aveiro, Portugal", "lat": 40.6405, "lon": -8.6538, "visited_by": "both"},
+    {"place": "Santa Maria da Feira, Portugal", "lat": 40.9250, "lon": -8.5429, "visited_by": "both"},
+    {"place": "Sendim, Portugal", "lat": 41.1702, "lon": -7.5733, "visited_by": "both"},
+    {"place": "Moimenta da Beira, Portugal", "lat": 40.9833, "lon": -7.6167, "visited_by": "both"},
+    {"place": "Régua, Portugal", "lat": 41.1604, "lon": -7.7874, "visited_by": "both"},
 
     # Spain
     {"place": "Barcelona, Spain", "lat": 41.3851, "lon": 2.1734, "visited_by": "both"},
@@ -35,9 +55,9 @@ data = [
     {"place": "Bremen, Germany", "lat": 53.0793, "lon": 8.8017, "visited_by": "both"},
 
     # Finland
-    {"place": "Turku, Finland", "lat": 60.4518, "lon": 22.2666, "visited_by": "both"},
-    {"place": "Helsinki, Finland", "lat": 60.1699, "lon": 24.9384, "visited_by": "both"},
-    {"place": "Tampere, Finland", "lat": 61.4978, "lon": 23.7610, "visited_by": "both"},
+    {"place": "Turku, Finland", "lat": 60.4518, "lon": 22.2666, "visited_by": "Joao"},
+    {"place": "Helsinki, Finland", "lat": 60.1699, "lon": 24.9384, "visited_by": "Joao"},
+    {"place": "Tampere, Finland", "lat": 61.4978, "lon": 23.7610, "visited_by": "Joao"},
 
     # Estonia
     {"place": "Tallinn, Estonia", "lat": 59.4370, "lon": 24.7535, "visited_by": "both"},
@@ -47,19 +67,23 @@ data = [
 
     # Lithuania
     {"place": "Vilnius, Lithuania", "lat": 54.6872, "lon": 25.2797, "visited_by": "both"},
-    {"place": "Klaipeda, Lithuania", "lat": 55.7033, "lon": 21.1443, "visited_by": "both"},
+    {"place": "Klaipeda, Lithuania", "lat": 55.7033, "lon": 21.1443, "visited_by": "Joao"},
     {"place": "Kaunas, Lithuania", "lat": 54.8985, "lon": 23.9036, "visited_by": "both"},
 
     # Poland
     {"place": "Warsaw, Poland", "lat": 52.2297, "lon": 21.0122, "visited_by": "both"},
-    {"place": "Gdansk, Poland", "lat": 54.3520, "lon": 18.6466, "visited_by": "both"},
+    {"place": "Gdansk, Poland", "lat": 54.3520, "lon": 18.6466, "visited_by": "Joao"},
 
     # Austria
     {"place": "Vienna, Austria", "lat": 48.2082, "lon": 16.3738, "visited_by": "both"},
 
-    # USA
+    # NYC
     {"place": "New York City, USA", "lat": 40.7128, "lon": -74.0060, "visited_by": "both"},
-    {"place": "New Jersey, USA", "lat": 40.0583, "lon": -74.4057, "visited_by": "both"},
+    {"place": "Jersey City, USA", "lat": 40.7178, "lon": -74.0431, "visited_by": "both"},
+    {"place": "Newark, USA", "lat": 40.7357, "lon": -74.1724, "visited_by": "both"},
+    {"place": "Queens, USA", "lat": 40.7282, "lon": -73.7949, "visited_by": "both"},
+    {"place": "Brooklyn, USA", "lat": 40.6782, "lon": -73.9442, "visited_by": "both"},
+    {"place": "Bronx, USA", "lat": 40.8448, "lon": -73.8648, "visited_by": "both"},
     {"place": "Rockaway Beach, USA", "lat": 40.5830, "lon": -73.8207, "visited_by": "both"},
 
     # Angola
@@ -70,6 +94,31 @@ data = [
     {"place": "Benguela, Angola", "lat": -12.5797, "lon": 13.4072, "visited_by": "both"},
     {"place": "Lubango, Angola", "lat": -14.9172, "lon": 13.4925, "visited_by": "both"},
     {"place": "Namibe, Angola", "lat": -15.1961, "lon": 12.1526, "visited_by": "both"},
+    {"place": "Tômbua, Angola", "lat": -15.8000, "lon": 11.7781, "visited_by": "both"},
+    {"place": "Cristo Rei, Lubango, Angola", "lat": -14.9022, "lon": 13.5162, "visited_by": "both"},
+    {"place": "Fenda da Tundavala, Angola", "lat": -14.8014, "lon": 13.3881, "visited_by": "both"},
+    {"place": "C.V. Lodge Baía Azul, Angola", "lat": -12.6227, "lon": 13.2347, "visited_by": "both"},
+    {"place": "Baía Azul, Angola", "lat": -12.6227, "lon": 13.2347, "visited_by": "both"},
+    {"place": "Cacula, Angola", "lat": -13.7333, "lon": 15.2333, "visited_by": "both"},
+    {"place": "Quilengues, Angola", "lat": -13.7833, "lon": 14.8667, "visited_by": "both"},
+    {"place": "Chongoroi, Angola", "lat": -12.4833, "lon": 13.7333, "visited_by": "both"},
+    {"place": "Caporolo, Angola", "lat": -13.7000, "lon": 14.9833, "visited_by": "both"},
+    {"place": "Catengue, Angola", "lat": -13.0500, "lon": 13.9167, "visited_by": "both"},
+    {"place": "Colangoi, Angola", "lat": -13.9000, "lon": 14.9167, "visited_by": "both"},
+    {"place": "Canjala, Angola", "lat": -12.6167, "lon": 13.4167, "visited_by": "both"},
+    {"place": "Quicombo, Angola", "lat": -11.9500, "lon": 13.9333, "visited_by": "both"},
+    {"place": "Sumbe, Angola", "lat": -11.2060, "lon": 13.8437, "visited_by": "both"},
+    {"place": "Caputo, Angola", "lat": -10.8833, "lon": 14.5000, "visited_by": "both"},
+    {"place": "Porto Amboim, Angola", "lat": -10.7219, "lon": 13.7608, "visited_by": "both"},
+    {"place": "Quinteta, Angola", "lat": -10.4833, "lon": 13.9000, "visited_by": "both"},
+    {"place": "Kissama National Park, Angola", "lat": -9.32864373051298, "lon": 13.169145605149668, "visited_by": "both"},
+    {"place": "Miradouro da Lua, Angola", "lat": -9.7321, "lon": 13.2562, "visited_by": "both"},
+    {"place": "Ramiros, Angola", "lat": -9.1167, "lon": 13.2000, "visited_by": "both"},
+    {"place": "Baía de Luanda, Angola", "lat": -8.7781, "lon": 13.2364, "visited_by": "both"},
+
+
+
+
 
     # Peru
     {"place": "Lima, Peru", "lat": -12.0464, "lon": -77.0428, "visited_by": "both"},
@@ -122,7 +171,13 @@ data = [
     {"place": "Rio de Janeiro, Brazil", "lat": -22.9068, "lon": -43.1729, "visited_by": "both"},
 
     # United Kingdom
-    {"place": "London, United Kingdom", "lat": 51.5072, "lon": -0.1276, "visited_by": "both"}
+    {"place": "London, United Kingdom", "lat": 51.5072, "lon": -0.1276, "visited_by": "both"},
+
+    # Norway
+    # Norway
+    {"place": "Tromsø, Norway", "lat": 69.6496, "lon": 18.9560, "visited_by": "both"},
+    {"place": "Lapland (Ramfjordbotn), Norway", "lat": 69.64550298946004, "lon": 19.58412780000055, "visited_by": "both"},
+
 ]
 
 
@@ -130,46 +185,46 @@ df = pd.DataFrame(data)
 
 # Color mapping
 color_map = {
-    "you": "blue",
-    "wife": "pink",
+    "Joao": "red",
+    "Mariana": "pink",
     "both": "green"
 }
 
 fig = go.Figure()
 
-# Add each category separately for custom colors and legend
 for group in df['visited_by'].unique():
     group_df = df[df['visited_by'] == group]
-    fig.add_trace(go.Scattergeo(
-        lon=group_df['lon'],
+    fig.add_trace(go.Scattermap(
         lat=group_df['lat'],
-        text=group_df['place'],
-        mode='markers',
+        lon=group_df['lon'],
+        mode='markers+text',
         marker=dict(size=10, color=color_map[group]),
+        text=group_df['place'],
+        textposition="top right",
         name=group.capitalize()
     ))
 
 fig.update_layout(
-    geo=dict(
-        projection_type='natural earth',
-        showland=True,
-        showcountries=True,         # ✅ Show country borders
-        countrycolor="gray",        # Line color for country borders
-        landcolor="rgb(230, 230, 230)",
-        showocean=True,
-        oceancolor="lightblue",
-        lakecolor="lightblue",
-        showlakes=True
+    mapbox=dict(
+        style="carto-positron",  # Try "open-street-map" or "carto-darkmatter" for other looks
+        zoom=5.5,
+        center=dict(lat=39.5, lon=2.0),  # Center roughly on Balearic Islands for better view
+        pitch=0,
     ),
-    margin={"r":0,"t":0,"l":0,"b":0}
+    margin={"r":0,"t":0,"l":0,"b":0},
+    legend=dict(y=0.99, x=0.01),
 )
 
-
-# Dash app
 app = dash.Dash(__name__)
 app.layout = html.Div([
     html.H1("World Travel Dashboard"),
-    dcc.Graph(figure=fig)
+    dcc.Graph(figure=fig,
+        config={
+        "scrollZoom": True,  # Allow zooming with mouse wheel
+        "doubleClick": "reset",  # Double click resets zoom
+        "displayModeBar": True,  # Show the mode bar with zoom buttons
+        "modeBarButtonsToAdd": [],  # Add custom buttons if needed
+    })
 ])
 
 if __name__ == '__main__':

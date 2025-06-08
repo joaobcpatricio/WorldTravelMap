@@ -87,6 +87,22 @@ Generate requirements:
     - Benguela
     - Lubango
     - Namibe
+    - Cacula  
+    - Quilengues  
+    - Chongoroi  
+    - Caporolo  
+    - Catengue  
+    - Colangoi  
+    - Canjala  
+    - Quicombo  
+    - Sumbe  
+    - Caputo  
+    - Porto Amboim  
+    - Quinteta  
+    - Kissama National Park  
+    - Miradouro da Lua  
+    - Ramiros  
+    - Baía de Luanda  
 
 14. **Peru**
     - Lima
@@ -134,3 +150,7 @@ Generate requirements:
 
 19. **United Kingdom**
     - London
+
+20. **Norway**
+    - Tromsø
+    - Lapland
