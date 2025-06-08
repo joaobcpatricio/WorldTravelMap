@@ -1,7 +1,7 @@
 # WorldTravelMap
 
 Dashboard of the world map with visited places.
-
+![map_preview.png](map_preview.png)
 
 ## Python
 
